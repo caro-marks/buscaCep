@@ -1,6 +1,6 @@
 Para utilizar corretamente as instruções aqui escritas,
 é preciso ter o Git instalado na máquina,
-e configurado com o usuário certo.
+e configurado com o usuário certo, e ter um repositório remoto no Github.
 
 Acessando por terminal a pasta onde estão os códigos 
 escritos que irão para a Nuvem, pode-se usar os seguintes códigos:
@@ -9,6 +9,6 @@ escritos que irão para a Nuvem, pode-se usar os seguintes códigos:
 'git status' -> retorna a branch em que se encontra, e a quantidade de commits dentro dela
 'git add' . -> adiciona todos os arquivos desta pasta na branch
 'git commit -m 'primeiro commit pelo terminal'' -> cria um commit
-'git push' -> envia o commit para a Nuvem
-'git pull' -> puxa alterações feitas na Nuvem
-'git clone <rep>' -> clona um repositorio especifico
+'git remote add origin github@github.com:caro-marks/buscaCep.git' -> conecta os repositórios local e remoto
+'git branch -M main' -> cria uma branch que vai se atualizar com os commits
+'git push -u origin main' -> envia o commit para a Nuvem
